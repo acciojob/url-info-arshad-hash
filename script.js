@@ -2,7 +2,8 @@
 
 
 function length() {
-	let url = location.href; //gives url as string
- alert(url.length);
+  let url = location.href; // gives URL as a string
+  alert('The length of the URL is: ' + url.length);
 }
+
 length();
